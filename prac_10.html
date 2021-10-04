@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<title> Practical - 10 </title>
+	<style>
+	body {
+	  background-image: -webkit-linear-gradient(left, #FFF 50%, #000 50%);
+	  background-image: -moz-linear-gradient(left, #FFF 50%, #000 50%);
+	  background-image: -o-linear-gradient(left, #FFF 50%, #000 50%);
+	  background-image: linear-gradient(to right, #FFF 50%, #000 50%);
+	}
+
+	* {
+	  -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	   box-sizing: border-box;
+	}
+
+	form {
+	  width: 600px;
+	  height: 650px;
+	  border-left: 10px solid #000;
+	  border-right: 10px solid #FFF;
+	  padding: 30px 0;
+	  margin: 50px auto;
+	  background-image: -webkit-linear-gradient(left, #000 50%, #FFF 50%), -webkit-linear-gradient(left, #000 50%, #FFF 50%);
+	  background-image: -moz-linear-gradient(left, #000 50%, #FFF 50%), -moz-linear-gradient(left, #000 50%, #FFF 50%);
+	  background-image: -o-linear-gradient(left, #000 50%, #FFF 50%), -o-linear-gradient(left, #000 50%, #FFF 50%);
+	  background-image: linear-gradient(to right, #000 50%, #FFF 50%), linear-gradient(to right, #000 50%, #FFF 50%);
+	  background-position: 0 0, 0 100% ;
+	  background-repeat: no-repeat;
+	  background-size: 100% 10px;
+	}
+
+	.butn {
+			border-radius: 50%; 
+			font-size: 16px; 
+			margin: 4px 2px;
+			padding: 20px;
+			cursor: pointer;
+			color: white;
+			background-color: #581845;
+			}
+
+	</style>
+
+	<form>
+		<center>
+		<h2 style="color: red;"> Subscribe to XYZ News Letter </h2>
+		<p style="color: red;"> Intrested in receiving small updates of all latest news? Well, now you can. All the best news around the world at your touch, just for Rs. 50 per month</p>
+		<hr>
+		<input type="text" placeholder="First Name" name = "text_a" required="required" style="padding-top: 10px; padding-right: 40px; padding-left: 40px;" />
+		<br><br>
+		<input type="text" placeholder="Last Name" name = "text_b" required="required" style="padding-top: 10px; padding-right: 40px; padding-left: 40px;" />
+		<br><br>
+		<input type="text" placeholder="Business" name = "text_c" required="required"  style="padding-top: 10px; padding-right: 40px; padding-left: 40px;" />
+		<p style="color: red;"> We must have a correct Email address to send you the news letter </p>
+		<input type="Email" placeholder="Email" name = "text_d" required="required"  style="padding-top: 10px; padding-right: 40px; padding-left: 40px;" />
+		<p style="color: red;"> How did you know about XYZ news letter? </p>
+		<input type="checkbox" id="web" name="web" value="Web">
+	 	<label for="web" style="color: red;"> Here on the Web </label>
+	  	<input type="checkbox" id="mag" name="mag" value="mag">
+	  	<label for="mag" style="color: red;"> In a Magazine </label>
+	  	<input type="checkbox" id="tel" name="tel" value="tel">
+	  	<label for="tel" style="color: red;"> Televsion </label>
+	  	<input type="checkbox" id="oth" name="oth" value="oth">
+	  	<label for="oth" style="color: red;"> Other </label><br>
+	  	<p style="color: red;"> Would you like to be on our Regular Mailing List? </p>
+	  	<input type="checkbox" id="yes" name="yes" value="yes">
+	  	<label for="yes" style="color: red;"> Yes, we love junk mails </label><br>
+		<br>
+		<hr>
+		<button class="butn"> Submit </button>
+		<button class="butn"> Reset </button>
+	</form>
+</html>
