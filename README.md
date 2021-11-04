@@ -1,1 +1,1 @@
-<img style="width:250px; height:250px; float:left;" src = "extra/WME8.gif"><center><h2 style="backgound-color:black; color:white;"><b> COLLEGE </b><i> WORK / PROJECTS </i></h2></center><img style="width:250px; height:250px; float:right;" src = "extra/gifs2.gif">
+<img style="width:250px; height:250px; float:left;" src = "extra/WME8.gif"><img style="width:250px; height:250px; float:right;" src = "extra/gifs2.gif"><h1 style="backgound-color:black; color:white; text-align:center;"><b> COLLEGE </b><i> WORK / PROJECTS </i></h1>
