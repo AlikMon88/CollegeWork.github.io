@@ -1,1 +1,2 @@
-<img style="width:250px; height:250px; float:left;" src = "extra/WME8.gif"><img style="width:250px; height:250px; float:left;" src = "extra/gifs2.gif"><h1 style="backgound-color:black; color:white; text-align:center;"><b><code>COLLEGE</code></b> <i>WORK / PROJECTS</i></h1>
+<img style="width:80px; height:80px;float:left;" src = "https://i.pinimg.com/originals/90/c6/69/90c6698dc6f9e00bb32ffb3e21042474.gif" /><img style="width:80px; height:80px;float:right;" src = "https://acegif.com/wp-content/gif/laughing-emoji-3.gif" /><center><img style="width:auto; height:auto;" src = "https://raw.githubusercontent.com/AlikMon88/FillerStack-repo/ebb777f8f116d4a79e69c67705179b641328ed42/extra/transformers.gif" /></center> 
+</body>
